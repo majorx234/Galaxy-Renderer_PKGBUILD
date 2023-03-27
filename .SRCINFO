@@ -1,0 +1,17 @@
+pkgbase = galaxy-renderer
+	pkgdesc = application to visualize galxy simulation based on density wave theory
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/majorx234/Galaxy-Renderer
+	arch = x86_64
+	arch = arm7h
+	license = BSD-2
+	makedepends = cmake
+	makedepends = gcc
+	depends = sdl2
+	depends = sdl2_ttf
+	depends = glm
+	source = git+https://github.com/majorx234/Galaxy-Renderer.git
+	sha256sums = SKIP
+
+pkgname = galaxy-renderer
